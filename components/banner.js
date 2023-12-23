@@ -6,7 +6,7 @@ const montserrat = Montserrat({ subsets: ["latin"] });
 const Banner = () => {
     return (
         <div>
-            <div className="flex justify-between items-center">
+            <div className="flex justify-between items-center mt-16 mb-20">
                 <div>
                     <p
                         className={`${montserrat.className} text-white text-[40px] font-bold mb-9`}
