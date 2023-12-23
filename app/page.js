@@ -1,3 +1,9 @@
+import Banner from "@/components/banner";
+
 export default function Home() {
-    return <div>Welcome to Hydra</div>;
+    return (
+        <div>
+            <Banner />
+        </div>
+    );
 }
