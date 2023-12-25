@@ -2,6 +2,7 @@ import About from "@/components/about";
 import Banner from "@/components/banner";
 import ContactPromo from "@/components/contactPromo";
 import Introduction from "@/components/introduction";
+import WhyHydra from "@/components/whyHydra";
 
 export default function Home() {
     return (
@@ -10,6 +11,7 @@ export default function Home() {
             <ContactPromo />
             <Introduction />
             <About />
+            <WhyHydra />
         </div>
     );
 }
