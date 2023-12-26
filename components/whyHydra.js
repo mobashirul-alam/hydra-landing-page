@@ -33,7 +33,7 @@ const infos = [
 
 const WhyHydra = () => {
     return (
-        <div>
+        <div className="mb-28">
             <div className="text-white flex items-center mb-28">
                 <div className="flex-1">
                     <div className="mt-8">
