@@ -4,7 +4,7 @@ const Technology = () => {
     return (
         <div>
             <div
-                className="rounded-[160px] w-full bg-[#211E2E] text-center text-white pt-28 pb-24 "
+                className="rounded-[160px] w-full bg-[#211E2E] text-center text-white pt-28 pb-24 mb-20"
                 style={{
                     background: `linear-gradient(0deg, rgba(48, 44, 66, 0.79) 0%, rgba(48, 44, 66, 0.79) 100%), url(${"/vr-tech-2.jpg"})`,
                     backgroundRepeat: "no-repeat",

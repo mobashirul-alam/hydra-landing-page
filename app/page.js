@@ -1,6 +1,7 @@
 import About from "@/components/about";
 import Banner from "@/components/banner";
 import ContactPromo from "@/components/contactPromo";
+import HowWeBuild from "@/components/howWeBuild";
 import Introduction from "@/components/introduction";
 import Technology from "@/components/technology";
 import WhyHydra from "@/components/whyHydra";
@@ -14,6 +15,7 @@ export default function Home() {
             <About />
             <WhyHydra />
             <Technology />
+            <HowWeBuild />
         </div>
     );
 }
