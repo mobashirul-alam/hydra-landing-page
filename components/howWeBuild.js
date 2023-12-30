@@ -48,7 +48,7 @@ const HowWeBuild = () => {
                 </div>
             </div>
             <div className="relative">
-                <div className="absolute top-2 z-0">
+                <div className="absolute top-0 z-0">
                     <Image
                         alt=""
                         src={"/how-build-vector.svg"}
@@ -56,7 +56,7 @@ const HowWeBuild = () => {
                         height={163}
                     />
                 </div>
-                <div className="w-full grid grid-cols-4 gap-x-[89px] z-50 px-20">
+                <div className="w-full grid grid-cols-4 gap-x-[89px] z-50 pl-[76px] pr-[86px]">
                     {infos.map((info) => (
                         <div
                             key={info.id}
@@ -76,7 +76,7 @@ const HowWeBuild = () => {
                                     height={67}
                                     width={67}
                                 />
-                                <p className="text-white text-2xl font-bold mt-4">
+                                <p className="text-white text-xl font-bold mt-4">
                                     {info.title}
                                 </p>
                             </div>
