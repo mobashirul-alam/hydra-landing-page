@@ -3,9 +3,9 @@ import Link from "next/link";
 
 const Footer = () => {
     return (
-        <div>
+        <div className="relative">
             <div className="px-20 flex items-center text-white">
-                <div>
+                <div className="z-50">
                     <Image
                         alt="logo"
                         src={"/logo-start.svg"}
@@ -129,6 +129,22 @@ const Footer = () => {
                     2023 © HYDRA LANDING PAGE - BY ZINE. E. FALOUTI - ALL RIGHTS
                     RESERVED
                 </p>
+            </div>
+            <div className="absolute -top-8 -rotate-2">
+                <Image
+                    alt="line"
+                    src={"/footer-line-1.svg"}
+                    width={1435}
+                    height={363}
+                />
+            </div>
+            <div className="absolute bottom-72">
+                <Image
+                    alt="line"
+                    src={"/footer-line-2.svg"}
+                    width={1438}
+                    height={263}
+                />
             </div>
         </div>
     );

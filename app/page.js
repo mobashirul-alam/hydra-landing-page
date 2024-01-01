@@ -11,7 +11,9 @@ export default function Home() {
     return (
         <div className="pb-20">
             <Banner />
-            <ContactPromo />
+            <div className="z-50">
+                <ContactPromo />
+            </div>
             <Introduction />
             <About />
             <WhyHydra />

@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Technology = () => {
     return (
-        <div className="mb-20">
+        <div className="mb-20 px-[84px]">
             <div
                 className="rounded-[160px] w-full bg-[#211E2E] text-center text-white pt-28 pb-24"
                 style={{

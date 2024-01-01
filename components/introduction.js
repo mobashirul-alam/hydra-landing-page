@@ -3,7 +3,7 @@ import Image from "next/image";
 const Introduction = () => {
     return (
         <div>
-            <div className="text-white flex items-center">
+            <div className="text-white flex items-center px-[84px]">
                 <div className="flex-1">
                     <div className="mt-8">
                         <h2 className="text-4xl font-bold">INTRODUCTION</h2>

@@ -6,8 +6,8 @@ const montserrat = Montserrat({ subsets: ["latin"] });
 const Banner = () => {
     return (
         <div>
-            <div className="flex justify-between items-center mt-16 mb-20">
-                <div>
+            <div className="flex justify-between items-center mt-16 mb-20 relative px-[84px]">
+                <div className="relative">
                     <p
                         className={`${montserrat.className} text-white text-[40px] font-bold mb-9`}
                     >
@@ -41,9 +41,17 @@ const Banner = () => {
                             height={100}
                         />
                     </div>
+                    <div className="absolute -top-5 -left-16 -z-0">
+                        <Image
+                            alt="line"
+                            src={"/banner-line-4.svg"}
+                            width={238}
+                            height={565}
+                        />
+                    </div>
                 </div>
                 {/* Image section */}
-                <div>
+                <div className="z-50">
                     <div className="w-[524px] h-[455px] pt-[14px] pb-[15px] pl-[16px] pr-[18px] rounded-tl-[100px] rounded-tr-[100px] rounded-br-[100px] rounded-bl-[240px] bg-black bg-opacity-15">
                         <div
                             className="w-full h-full rounded-tl-[100px] rounded-tr-[100px] rounded-br-[100px] rounded-bl-[240px]"
@@ -52,6 +60,31 @@ const Banner = () => {
                             }}
                         ></div>
                     </div>
+                </div>
+                <div className="absolute -top-[106px] -right-6 -z-0">
+                    <Image
+                        alt="line"
+                        src={"/banner-line-1.svg"}
+                        width={414}
+                        height={669}
+                    />
+                </div>
+
+                <div className="absolute -top-[266px] right-24 -z-0">
+                    <Image
+                        alt="line"
+                        src={"/banner-line-2.svg"}
+                        width={377}
+                        height={845}
+                    />
+                </div>
+                <div className="absolute -right-28 -bottom-24 -z-0">
+                    <Image
+                        alt="line"
+                        src={"/banner-line-3.svg"}
+                        width={735}
+                        height={419}
+                    />
                 </div>
             </div>
         </div>
