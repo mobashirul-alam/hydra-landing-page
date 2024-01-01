@@ -9,7 +9,12 @@ const HowWeBuild = () => {
     ];
     return (
         <div className="mb-28">
-            <div className="text-white flex items-center mb-28 px-[84px]">
+            <div
+                data-aos="fade-up"
+                data-aos-easing="linear"
+                data-aos-duration="500"
+                className="text-white flex items-center mb-28 px-[84px]"
+            >
                 <div className="flex-1">
                     <div className="mt-8">
                         <h2 className="text-4xl font-bold">HOW WE BUILD</h2>
@@ -56,7 +61,12 @@ const HowWeBuild = () => {
                         height={163}
                     />
                 </div>
-                <div className="w-full grid grid-cols-4 gap-x-[89px] z-50 pl-[150px] pr-[170px]">
+                <div
+                    data-aos="fade-up"
+                    data-aos-easing="linear"
+                    data-aos-duration="500"
+                    className="w-full grid grid-cols-4 gap-x-[89px] z-50 pl-[150px] pr-[170px]"
+                >
                     {infos.map((info) => (
                         <div
                             key={info.id}

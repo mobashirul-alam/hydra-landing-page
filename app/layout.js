@@ -6,6 +6,8 @@ import Footer from "@/components/footer";
 import Navbar from "@/components/navbar";
 
 // css import
+import AosProvider from "@/providers/aos-provider";
+import "aos/dist/aos.css";
 import "./globals.css";
 
 const montserrat = Montserrat({ subsets: ["latin"] });
@@ -22,7 +24,7 @@ export default function RootLayout({ children }) {
                 <div className="bg-[#302C42] min-h-screen">
                     <div className="mx-auto max-w-[1440px]">
                         <Navbar />
-                        {children}
+                        <AosProvider>{children}</AosProvider>
                         <Footer />
                     </div>
                 </div>

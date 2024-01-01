@@ -5,7 +5,7 @@ import Link from "next/link";
 const montserrat = Montserrat({ subsets: ["latin"] });
 const Navbar = () => {
     return (
-        <div className="w-full flex justify-between items-center py-12">
+        <div className="w-full flex justify-between items-center py-12 px-[80px]">
             {/* Logo */}
             <div className="flex items-center gap-x-4">
                 <Image

@@ -34,7 +34,10 @@ const infos = [
 const WhyHydra = () => {
     return (
         <div className="mb-28">
-            <div className="text-white flex items-center mb-28 px-[84px]">
+            <div
+                data-aos="fade-up"
+                className="text-white flex items-center mb-28 px-[84px]"
+            >
                 <div className="flex-1">
                     <div className="mt-8">
                         <h2 className="text-4xl font-bold">WHY BUILD</h2>
@@ -71,7 +74,12 @@ const WhyHydra = () => {
                 </div>
             </div>
 
-            <div className="relative">
+            <div
+                className="relative"
+                data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="1500"
+            >
                 {/* Promo card */}
                 <div className="grid grid-cols-4 gap-x-3 px-[84px]">
                     {infos.map((info) => (

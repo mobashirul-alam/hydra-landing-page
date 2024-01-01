@@ -61,6 +61,16 @@ const Banner = () => {
                         ></div>
                     </div>
                 </div>
+                {/* line -1 */}
+                <div className="absolute -right-28 -bottom-24 -z-0">
+                    <Image
+                        alt="line"
+                        src={"/banner-line-3.svg"}
+                        width={735}
+                        height={419}
+                    />
+                </div>
+                {/* line -2 */}
                 <div className="absolute -top-[106px] -right-6 -z-0">
                     <Image
                         alt="line"
@@ -69,21 +79,13 @@ const Banner = () => {
                         height={669}
                     />
                 </div>
-
-                <div className="absolute -top-[266px] right-24 -z-0">
+                {/* line -3 */}
+                <div className="absolute -top-[266px] right-24 -rotate-2 -z-0">
                     <Image
                         alt="line"
                         src={"/banner-line-2.svg"}
                         width={377}
                         height={845}
-                    />
-                </div>
-                <div className="absolute -right-28 -bottom-24 -z-0">
-                    <Image
-                        alt="line"
-                        src={"/banner-line-3.svg"}
-                        width={735}
-                        height={419}
                     />
                 </div>
             </div>

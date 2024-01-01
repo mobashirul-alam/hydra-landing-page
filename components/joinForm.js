@@ -4,7 +4,12 @@ import Image from "next/image";
 
 const JoinForm = () => {
     return (
-        <div className="mb-24 px-[84px]">
+        <div
+            data-aos="zoom-in-up"
+            data-aos-easing="linear"
+            data-aos-duration="500"
+            className="mb-24 px-[84px]"
+        >
             <div className="bg-[radial-gradient(50%_50%_at_50%_50%,#403A5F_0%,#211E2E_100%)] rounded-[100px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] text-white py-24 px-28">
                 <h1 className="text-4xl font-bold text-center mb-8">
                     JOIN HYDRA
