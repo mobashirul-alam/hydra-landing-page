@@ -76,7 +76,7 @@ const WhyHydra = () => {
 
             <div
                 className="relative"
-                data-aos="fade-down"
+                data-aos="zoom-in-up"
                 data-aos-easing="linear"
                 data-aos-duration="1500"
             >

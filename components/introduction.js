@@ -2,7 +2,11 @@ import Image from "next/image";
 
 const Introduction = () => {
     return (
-        <div>
+        <div
+            data-aos="fade-up"
+            data-aos-easing="linear"
+            data-aos-duration="300"
+        >
             <div className="text-white flex items-center px-[84px]">
                 <div className="flex-1">
                     <div className="mt-8">
