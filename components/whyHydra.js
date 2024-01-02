@@ -36,20 +36,22 @@ const WhyHydra = () => {
         <div className="mb-28">
             <div
                 data-aos="fade-up"
-                className="text-white flex items-center mb-28 px-[84px]"
+                className="text-white flex flex-col md:flex-row items-center mb-14 lg:mb-28 px-6 lg:px-[84px]"
             >
                 <div className="flex-1">
                     <div className="mt-8">
                         <h2 className="text-4xl font-bold">WHY BUILD</h2>
-                        <div className="flex items-center gap-x-8 -mt-4">
-                            <p className="text-4xl font-light">WITH HYDRA</p>
+                        <div className="flex items-center gap-x-2 -mt-4">
+                            <p className="text-2xl lg:text-4xl font-light">
+                                WITH HYDRA
+                            </p>
                             <div className="flex items-center">
                                 <Image
                                     src={"/line-1.svg"}
                                     alt=""
                                     height={0}
                                     width={158}
-                                    className="-mr-[29px]"
+                                    className="-mr-[29px] hidden md:visible"
                                 />
                                 <Image
                                     src={"/arrow-small-right.svg"}
@@ -62,7 +64,7 @@ const WhyHydra = () => {
                     </div>
                 </div>
                 <div className="flex-1">
-                    <p className="text-base font-normal text-justify">
+                    <p className="text-base font-normal text-justify px-10 lg:px-0">
                         Vitae sapien pellentesque habitant morbi tristique
                         senectus et netus et. Feugiat nibh sed pulvinar proin
                         gravida hendrerit lectus. Mi sit amet mauris commodo
@@ -78,10 +80,10 @@ const WhyHydra = () => {
                 className="relative"
                 data-aos="zoom-in-up"
                 data-aos-easing="linear"
-                data-aos-duration="1500"
+                data-aos-duration="1000"
             >
                 {/* Promo card */}
-                <div className="grid grid-cols-4 gap-x-3 px-[84px]">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-y-3 gap-x-3 px-6 lg:px-[84px]">
                     {infos.map((info) => (
                         <div
                             key={info.id}

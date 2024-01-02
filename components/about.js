@@ -2,17 +2,17 @@ import Image from "next/image";
 
 const About = () => {
     return (
-        <div className="relative px-[84px]">
-            <div className="my-28">
-                <div className="flex items-center gap-x-28">
+        <div className="relative px-6 lg:px-[84px]">
+            <div className="my-14 lg:my-28">
+                <div className="flex flex-col lg:flex-row items-center gap-x-28">
                     <div
                         data-aos="fade-right"
                         data-aos-easing="linear"
                         data-aos-duration="500"
-                        className="flex-1 w-[524px] h-[557px] rounded-[240px_100px] z-50"
+                        className="flex-1 w-[336px] h-[358px] md:w-[524px] md:h-[557px] rounded-[240px_100px] z-50"
                     >
                         <div
-                            className="w-[524px] h-full rounded-[240px_100px] bg-white bg-no-repeat"
+                            className="w-[336px] h-[358px] md:w-[524px] md:h-full rounded-[140px_60px] lg:rounded-[240px_100px] bg-white bg-no-repeat"
                             style={{
                                 background: `url(${"/banner-about.png"})`,
                             }}
@@ -22,10 +22,10 @@ const About = () => {
                         data-aos="fade-left"
                         data-aos-easing="linear"
                         data-aos-duration="500"
-                        className="text-white flex-1"
+                        className="text-white flex-1 mt-10 lg:mt-0"
                     >
                         <p className="text-4xl font-bold mb-1">ABOUT</p>
-                        <p className="text-4xl font-light text-opacity-95 mb-10">
+                        <p className="text-4xl font-light text-opacity-95 mb-6 md:mb-10">
                             HYDRA VR
                         </p>
                         <p>

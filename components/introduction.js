@@ -7,19 +7,21 @@ const Introduction = () => {
             data-aos-easing="linear"
             data-aos-duration="300"
         >
-            <div className="text-white flex items-center px-[84px]">
+            <div className="text-white flex flex-col md:flex-row items-center px-6 lg:px-[84px]">
                 <div className="flex-1">
                     <div className="mt-8">
                         <h2 className="text-4xl font-bold">INTRODUCTION</h2>
                         <div className="flex items-center gap-x-8 -mt-4">
-                            <p className="text-4xl font-light">TO HYDRA VR</p>
+                            <p className="text-2xl md:text-4xl whitespace-nowrap font-light">
+                                TO HYDRA VR
+                            </p>
                             <div className="flex items-center">
                                 <Image
                                     src={"/line-1.svg"}
                                     alt=""
                                     height={0}
                                     width={158}
-                                    className="-mr-[29px]"
+                                    className="-mr-[29px] hidden md:visible"
                                 />
                                 <Image
                                     src={"/arrow-small-right.svg"}
@@ -32,7 +34,7 @@ const Introduction = () => {
                     </div>
                 </div>
                 <div className="flex-1">
-                    <p className="text-base font-normal text-justify">
+                    <p className="text-base font-normal text-justify px-10">
                         Vitae sapien pellentesque habitant morbi tristique
                         senectus et netus et. Feugiat nibh sed pulvinar proin
                         gravida hendrerit lectus. Mi sit amet mauris commodo

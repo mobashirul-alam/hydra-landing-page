@@ -7,8 +7,8 @@ const ContactPromo = () => {
             data-aos-easing="linear"
             data-aos-duration="500"
         >
-            <div className="z-50 mt-28 px-[84px]">
-                <div className="flex flex-shrink-0 items-center justify-around gap-12 rounded-[90px] bg-[radial-gradient(2900.76%_50.13%_at_50%_53.89%,rgba(58,52,86,0.95)_0%,#211E2E_100%)] py-7 px-10 mb-24 z-50">
+            <div className="z-50 mt-12 lg:mt-28 px-6 lg:px-[84px]">
+                <div className="flex flex-col lg:flex-row flex-shrink-0 items-center justify-around gap-12 rounded-[90px] bg-[radial-gradient(2900.76%_50.13%_at_50%_53.89%,rgba(58,52,86,0.95)_0%,#211E2E_100%)] py-7 px-10 mb-24 z-50">
                     <div className="flex items-center justify-center z-50">
                         <Image
                             alt=""
@@ -26,7 +26,7 @@ const ContactPromo = () => {
                         </div>
                     </div>
 
-                    <div className="w-[1px] h-28 bg-[rgba(192,183,232,0.33)]" />
+                    <div className="w-72 h-[1px] md:w-[1px] md:h-28 bg-[rgba(192,183,232,0.33)]" />
 
                     <div className="flex items-center justify-center gap-x-6">
                         <Image
@@ -43,7 +43,7 @@ const ContactPromo = () => {
                         </div>
                     </div>
 
-                    <div className="w-[1px] h-28 bg-[rgba(192,183,232,0.33)]" />
+                    <div className="w-72 h-[1px] md:w-[1px] md:h-28 bg-[rgba(192,183,232,0.33)]" />
 
                     <div className="flex items-center justify-center gap-x-6">
                         <Image

@@ -1,11 +1,12 @@
 import { Montserrat } from "next/font/google";
 import Image from "next/image";
 import Link from "next/link";
+import MobileNav from "./mobileNav";
 
 const montserrat = Montserrat({ subsets: ["latin"] });
 const Navbar = () => {
     return (
-        <div className="w-full flex justify-between items-center py-12 px-[80px]">
+        <div className="w-full flex justify-between items-center py-4 px-8 lg:py-12 lg:px-[80px]">
             {/* Logo */}
             <div className="flex items-center gap-x-4">
                 <Image
@@ -24,7 +25,7 @@ const Navbar = () => {
             </div>
             {/* Link */}
             <div
-                className={`${montserrat.className} flex items-center gap-x-10 text-white text-xs font-bold tracking-wide leading-none`}
+                className={`${montserrat.className} hidden lg:flex items-center gap-x-10 text-white text-xs font-bold tracking-wide leading-none`}
             >
                 <Link href={"/"}>ABOUT</Link>
                 <Link href={"/"}>SERVICES</Link>
@@ -32,7 +33,7 @@ const Navbar = () => {
                 <Link href={"/"}>HOW TO</Link>
             </div>
             {/* Action buttons */}
-            <div className="flex justify-end items-center gap-x-10">
+            <div className="hidden lg:flex justify-end items-center gap-x-10">
                 <button
                     className={`${montserrat.className} w-[154px] h-[48px] rounded-[40px] border-2 border-white text-center text-xs font-bold text-white hover:bg-white hover:bg-opacity-10 duration-300`}
                 >
@@ -44,6 +45,9 @@ const Navbar = () => {
                     JOIN HYDRA
                 </button>
             </div>
+
+            {/* Mobile nav */}
+            <MobileNav />
         </div>
     );
 };
