@@ -21,7 +21,7 @@ const Introduction = () => {
                                     alt=""
                                     height={0}
                                     width={158}
-                                    className="-mr-[29px] hidden md:visible"
+                                    className="-mr-[29px] hidden md:block"
                                 />
                                 <Image
                                     src={"/arrow-small-right.svg"}

@@ -14,20 +14,23 @@ const Banner = () => {
                         data-aos-duration="500"
                     >
                         <p
-                            className={`${montserrat.className} text-white text-3xl md:text-[40px] font-bold mb-9 text-center lg:text-left mt-8 lg:mt-0`}
+                            className={`${montserrat.className} text-white text-3xl md:text-[40px] font-bold mb-0 md:mb-9 text-center lg:text-left mt-8 lg:mt-0`}
                         >
-                            <span className="bg-clip-text text-transparent bg-[linear-gradient(92deg,#C0B7E8_-1.02%,#8176AF_36.25%)]">
+                            <span className="bg-clip-text text-transparent bg-[linear-gradient(92deg,#C0B7E8_-1.02%,#8176AF_36.25%)] md:text-[56px]">
                                 Dive
                             </span>{" "}
                             Into The Depths
-                            <br />
+                        </p>
+                        <p
+                            className={`${montserrat.className} text-white text-3xl md:text-[40px] font-bold mb-9 text-center lg:text-left mt-4 lg:mt-0`}
+                        >
                             Of{" "}
-                            <span className="bg-clip-text text-transparent bg-[linear-gradient(92deg,#C0B7E8_-1.02%,#8176AF_36.25%)]">
+                            <span className="bg-clip-text text-transparent bg-[linear-gradient(92deg,#C0B7E8_-1.02%,#8176AF_36.25%)] md:text-[56px]">
                                 Virtual Reality
                             </span>
                         </p>
                         <p
-                            className={`${montserrat.className} w-[450px] text-white mb-16 hidden md:visible`}
+                            className={`${montserrat.className} w-[450px] text-white mb-16 hidden md:block`}
                         >
                             Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit, sed do eiusmod tempor incididunt ut labore et
@@ -45,7 +48,7 @@ const Banner = () => {
                                 src={"/arrow-small-right.svg"}
                                 width={100}
                                 height={100}
-                                className="hidden lg:visible"
+                                className="hidden lg:block"
                             />
                         </div>
                     </div>
@@ -75,7 +78,7 @@ const Banner = () => {
                     </div>
                 </div>
                 {/* line -1 */}
-                <div className="hidden lg:visible absolute -right-28 -bottom-24 -z-0">
+                <div className="hidden lg:block absolute -right-28 -bottom-24 -z-0">
                     <Image
                         alt="line"
                         src={"/banner-line-3.svg"}
@@ -84,7 +87,7 @@ const Banner = () => {
                     />
                 </div>
                 {/* line -2 */}
-                <div className="hidden lg:visible absolute -top-[106px] -right-6 -z-0">
+                <div className="hidden lg:block absolute -top-[106px] -right-6 -z-0">
                     <Image
                         alt="line"
                         src={"/banner-line-1.svg"}
@@ -93,7 +96,7 @@ const Banner = () => {
                     />
                 </div>
                 {/* line -3 */}
-                <div className="hidden lg:visible absolute -top-[266px] right-24 -rotate-2 -z-0">
+                <div className="hidden lg:block absolute -top-[266px] right-24 -rotate-2 -z-0">
                     <Image
                         alt="line"
                         src={"/banner-line-2.svg"}

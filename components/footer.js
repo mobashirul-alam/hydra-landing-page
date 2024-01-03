@@ -13,7 +13,7 @@ const Footer = () => {
                         height={187}
                     />
                 </div>
-                <div className="ml-[100px] mr-[81px] hidden lg:visible">
+                <div className="ml-[100px] mr-[81px] hidden lg:block">
                     <Image
                         alt="line"
                         src={"/footerLine.svg"}
@@ -38,7 +38,7 @@ const Footer = () => {
                         JOIN HYDRA
                     </Link>
                 </div>
-                <div className="ml-[104px] mr-[107px] hidden lg:visible">
+                <div className="ml-[104px] mr-[107px] hidden lg:block">
                     <Image
                         alt="line"
                         src={"/footerLine.svg"}
@@ -60,7 +60,7 @@ const Footer = () => {
                         LICENSES
                     </Link>
                 </div>
-                <div className="ml-[70px] mr-[71px] hidden lg:visible">
+                <div className="ml-[70px] mr-[71px] hidden lg:block">
                     <Image
                         alt="line"
                         src={"/footerLine.svg"}

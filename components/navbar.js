@@ -8,7 +8,7 @@ const Navbar = () => {
     return (
         <div className="w-full flex justify-between items-center py-4 px-8 lg:py-12 lg:px-[80px]">
             {/* Logo */}
-            <div className="flex items-center gap-x-4">
+            <div className="hidden lg:flex items-center gap-x-4">
                 <Image
                     alt="logo"
                     src={"/logo-start.svg"}
@@ -47,7 +47,9 @@ const Navbar = () => {
             </div>
 
             {/* Mobile nav */}
-            <MobileNav />
+            <div className="lg:hidden w-full">
+                <MobileNav />
+            </div>
         </div>
     );
 };

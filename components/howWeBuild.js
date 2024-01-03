@@ -28,7 +28,7 @@ const HowWeBuild = () => {
                                     alt=""
                                     height={0}
                                     width={158}
-                                    className="-mr-[29px] hidden lg:visible"
+                                    className="-mr-[29px] hidden lg:block"
                                 />
                                 <Image
                                     src={"/arrow-small-right.svg"}
@@ -40,7 +40,7 @@ const HowWeBuild = () => {
                         </div>
                     </div>
                 </div>
-                <div className="flex-1 hidden lg:visible">
+                <div className="flex-1 hidden lg:block">
                     <p className="text-base font-normal text-justify">
                         Vitae sapien pellentesque habitant morbi tristique
                         senectus et netus et. Feugiat nibh sed pulvinar proin
@@ -53,7 +53,7 @@ const HowWeBuild = () => {
                 </div>
             </div>
             <div className="relative">
-                <div className="absolute top-0 z-0 hidden lg:visible">
+                <div className="absolute top-0 z-0 hidden lg:block">
                     <Image
                         alt=""
                         src={"/how-build-vector.svg"}
